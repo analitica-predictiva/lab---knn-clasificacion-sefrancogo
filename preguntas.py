@@ -69,7 +69,7 @@ def pregunta_02():
     knn = KNeighborsClassifier(n_neighbors = 6)
 
     # Entrene el clasificador con el conjunto de entrenamiento
-    knn.fir(X, y)
+    knn.fit(X, y)
 
     # Pronostique el resultado para el conjunto de entrenamiento
     y_pred = knn.predict(X)
